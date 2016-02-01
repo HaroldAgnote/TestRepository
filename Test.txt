@@ -1,0 +1,11 @@
+This test file was created using the Terminal in Ubuntu.
+
+The commands used were:
+	cd git
+	cd TestRepository
+	nano Test.txt
+
+
+After saving this txt file, I will commit and push its contents onto the Repository.
+
+- Harold Agnote
