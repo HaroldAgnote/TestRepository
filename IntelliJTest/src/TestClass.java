@@ -3,8 +3,21 @@
  */
 public class TestClass
 {
+    private String text;
+
     public TestClass()
     {
-
+        text = "Default";
     }
+
+    public TestClass(String t)
+    {
+        text = t;
+    }
+
+    public String toString()
+    {
+        return text;
+    }
+
 }
