@@ -7,8 +7,10 @@ public class Main
     {
         TestClass test = new TestClass();
         TestClass testTwo = new TestClass("Hi, there!");
+        TestClass testThree = new TestClass("Hello, there!");
 
         System.out.println(test);
         System.out.println(testTwo);
+        System.out.println(testThree);
     }
 }
