@@ -8,6 +8,7 @@ public class Main
         TestClass test = new TestClass();
         TestClass testTwo = new TestClass("Hi, there!");
         TestClass testThree = new TestClass("Hello, there!");
+        TestClass testFour = new TestClass("Bye now!");
 
         System.out.println(test);
         System.out.println(testTwo);
