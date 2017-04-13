@@ -5,14 +5,18 @@ public class Main
 {
     public static void main(String[]args)
     {
-        TestClass test = new TestClass();
-        TestClass testTwo = new TestClass("Hi, there!");
-        TestClass testThree = new TestClass("Hello, there!");
-        TestClass testFour = new TestClass("Bye now!");
-        TestClass testFive = new TestClass("Forever");
-
-        System.out.println(test);
-        System.out.println(testTwo);
-        System.out.println(testThree);
+        Derived a = new Derived("A");
+        Base b = new Base("B");
+        
+        Base c = new Derived( "C" );
+        
+        testFunction( a );
+        testFunction( b );
+        testFunction( c );
+    }
+    
+    public static void testFunction(Base b)
+    {
+        System.out.println(b + " works!");
     }
 }
