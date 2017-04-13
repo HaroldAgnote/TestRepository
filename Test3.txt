@@ -1,3 +1,9 @@
 I'm in the master branch. Whee!
 
 I added a line!
+
+Everything below is from branch testing
+
+I am testing out branches. Whee!
+
+BtW I'm from the testing branch!
